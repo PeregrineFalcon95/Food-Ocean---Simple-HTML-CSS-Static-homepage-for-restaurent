@@ -12,18 +12,18 @@ body{
 nav {
     background-color: rgba(0, 0, 0, 0.33);
     text-align: center;
-    padding-top: 14px;
+    padding-top: 1px;
     padding-bottom: 14px;
+    font-size: 35px;
 }
 header
 {
-    height: 118px;
-    font-size: 50px;
+    height: 100px;
+    font-size: 45px;
     text-align: center;
     font-family: cursive;
     color: white;
 }
-
 footer p {
     font-size: 10px;
     color: #CECECE;
@@ -39,10 +39,10 @@ footer {
     padding-left: 240px;
     padding-right: 240px;
     padding-top: 80px;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
 }
 h1 {
-    font-size: 84px;
+    font-size: 64px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -60,9 +60,13 @@ a {
 
 nav a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: normal;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #CECECE;
+}
+section
+{
+    margin-bottom:  150px;
 }
